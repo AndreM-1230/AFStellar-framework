@@ -1,17 +1,17 @@
 {
     "name": "afstellar/af-stellar-framework",
-    "version": "0.8.3",
+    "version": "0.8.4",
     "description": "Lightweight MVC framework with ORM, Migrations and Query Builder",
     "type": "framework",
     "license": "MIT",
     "authors": [
         {
-            "name": "Andre Moore"
+            "name": "Andre Fomichev"
         }
     ],
     "require": {
         "php": "^7.3",
-        "afstellar/af-stellar-core": "^0.8.3"
+        "afstellar/af-stellar-core": "^0.8.4"
     },
     "autoload": {
       "psr-4": {

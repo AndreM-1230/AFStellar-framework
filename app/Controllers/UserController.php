@@ -4,20 +4,20 @@ namespace App\Controllers;
 
 use App\Core\Controller;
 use App\Models\User;
-use App\Services\UserService;
+//use App\Services\UserService;
+use App\Core\Request;
 
 class UserController extends Controller
 {
-    private $userService;
-
-    public function __construct()
-    {
-        $this->userService = new UserService();
-    }
-
     public function index()
     {
-        $users = $this->userService->index();
+        $users = User::all();
         return $this->view('users', compact(['users']));
+    }
+
+    public function show(Request $request)
+    {
+        $user = User::find($request->id);
+        return $this->view('users', compact(['user']));
     }
 }

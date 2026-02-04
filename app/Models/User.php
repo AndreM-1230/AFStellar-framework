@@ -6,8 +6,8 @@ use App\Core\Model;
 
 class User extends Model
 {
-    protected static $table = 'users';
-    protected $fillable = [
+    protected static string $table = 'users';
+    protected array $fillable = [
         'id',
         'name',
         'email',

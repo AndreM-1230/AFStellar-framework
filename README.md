@@ -4,7 +4,7 @@
     *Andre Moore*
 
 ## Requirements / Требования
-- PHP 7.3 or higher / PHP 7.3 или выше
+- PHP 8.0 or higher / PHP 8.0 или выше
 - MySQL database / База данных MySQL
 
 ## Configuration Setup / Настройка конфигурации
